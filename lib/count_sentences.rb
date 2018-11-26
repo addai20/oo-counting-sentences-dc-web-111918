@@ -16,7 +16,14 @@ class String
 
   def count_sentences(string)
     closing = ".?!"
-    
+    new_array -[]
+    self.each_with_index do |ele, idx|
+      if ele == self[idx + 1] && closing.include?(ele)
+        ele =""
+        new_array << ele
+      end
+   end
+      
   end
 end
 
