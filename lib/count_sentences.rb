@@ -15,7 +15,11 @@ class String
   end
 
   def count_sentences
-    self.split(".","!","?").length
+    closing = ".?!"
+    self.each_with_index do |ele, idx|
+      if ele == self[idx + 1] && closing.include?(ele)
+        
+      end
   end
 end
 
