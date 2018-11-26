@@ -17,7 +17,6 @@ class String
   def count_sentences
     count = 0
   arr = self.split(/[.!?]/)
-  binding.pry
   arr.each do |ele|
     if ele != ""
     count+=1
