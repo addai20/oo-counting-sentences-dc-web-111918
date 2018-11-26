@@ -16,10 +16,12 @@ class String
 
   def count_sentences
     count = 0
-  hello = self.split(/[.!?]/)
+  arr = self.split(/[.!?]/)
   binding.pry
-  if hello != ""
+  arr.each do |ele|
+    if ele != ""
     count+=1
+    end
   end
     return count
   end
