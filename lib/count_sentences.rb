@@ -18,8 +18,9 @@ class String
     closing = ".?!"
     self.each_with_index do |ele, idx|
       if ele == self[idx + 1] && closing.include?(ele)
-        
+        ele =""
       end
+      
   end
 end
 
