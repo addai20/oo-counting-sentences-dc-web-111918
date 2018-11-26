@@ -22,6 +22,7 @@ class String
         ele =""
         new_array << ele
       end
+      binding.pry
    end
       
   end
