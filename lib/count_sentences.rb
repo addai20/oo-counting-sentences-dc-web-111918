@@ -14,7 +14,7 @@ class String
   self[-1] == "!"
   end
 
-  def count_sentences(string)
+  def count_sentences
     closing = ".?!"
     new_array =[]
     self.each_with_index do |ele, idx|
