@@ -15,8 +15,13 @@ class String
   end
 
   def count_sentences
+    count = 0
   hello = self.split(/[.!?]/)
   binding.pry
+  if hello != ""
+    count+=1
+  end
+    return count
   end
 end
 
