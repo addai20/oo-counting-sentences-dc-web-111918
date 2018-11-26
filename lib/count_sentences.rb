@@ -15,16 +15,8 @@ class String
   end
 
   def count_sentences
-    closing = ".?!"
-    new_array =[]
-    self.each_with_index do |ele, idx|
-      if ele == self[idx + 1] && closing.include?(ele)
-        ele =""
-        new_array << ele
-      end
-      binding.pry
-   end
-      
+  hello = self.split(/[.!?]/)
+  binding.pry
   end
 end
 
