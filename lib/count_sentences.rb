@@ -21,3 +21,4 @@ class String
     self.split(".","!","?").length + 1
   end
 end
+end
