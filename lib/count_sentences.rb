@@ -14,11 +14,7 @@ class String
   self[-1] == "!"
   end
 
-  # def count_sentences
-  #   count = 0
-  #   count += self.split(".").length
-  #   count += self.split("?").length
-  #   count += self.split("!").length
-  #   count += 1
-  # end
+  def count_sentences
+  self.split(".").length
+  end
 end
