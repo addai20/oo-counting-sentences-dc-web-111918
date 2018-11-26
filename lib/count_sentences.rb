@@ -14,16 +14,9 @@ class String
   self[-1] == "!"
   end
 
-  def count_sentences
+  def count_sentences(string)
     closing = ".?!"
-    new_array -[]
-    self.each_with_index do |ele, idx|
-      if ele == self[idx + 1] && closing.include?(ele)
-        ele =""
-        new_array << ele
-      end
-   end
-      
+    
   end
 end
 
