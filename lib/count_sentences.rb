@@ -22,7 +22,8 @@ class String
         ele =""
         new_array << ele
       end
-      return new_array
+   end
+      
   end
 end
 
